@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="product.product" id="gift_Coupon">
+        <field name="name">Gift and Coupon</field>
+        <field name="display_name">Gift and Coupon</field>
+        <field name="available_in_pos">True</field>
+        <field name="type">service</field>
+        <field name="taxes_id"></field>
+        <field name="supplier_taxes_id"></field>
+    </record>
+    <record model="product.product" id="service_charge_pos">
+        <field name="name">Service Charge</field>
+        <field name="display_name">Service Charge</field>
+        <field name="available_in_pos">True</field>
+        <field name="type">service</field>
+        <field name="taxes_id"></field>
+        <field name="supplier_taxes_id"></field>
+    </record>
+    <record model="account.account" id="poscredit1">
+       <field name="code">poscredit1</field> 
+        <field name="name">POS On Credit Account</field>
+        <field name="user_type_id" ref="account.data_account_type_receivable"/>
+        <field name="reconcile">True</field>
+    </record>
+    <record model="account.journal" id="pos_credit_journal">
+        <field name="name">POS Credit Journal</field>
+        <field name="code">CRDT</field> 
+        <field name="journal_user">True</field>
+        <field name="type">cash</field>
+        <field name="default_debit_account_id" ref="poscredit1"/>
+        <field name="default_credit_account_id" ref="poscredit1"/>
+    </record>
+</odoo>

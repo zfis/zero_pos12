@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+pos_voucher_mgr,pos_voucher_mgr,model_gift_voucher_pos,point_of_sale.group_pos_manager,1,1,1,1
+pos_coupon_mgr,pos_coupon_mgr,model_gift_coupon_pos,point_of_sale.group_pos_manager,1,1,1,1
+pos_partner_coupon_mgr,pos_partner_coupon_mgr,model_partner_coupon_pos,point_of_sale.group_pos_manager,1,1,1,1
+pos_voucher_usr,pos_voucher_usr,model_gift_voucher_pos,point_of_sale.group_pos_user,1,0,0,0
+pos_coupon_usr,pos_coupon_usr,model_gift_coupon_pos,point_of_sale.group_pos_user,1,0,0,0
+pos_partner_coupon_usr,pos_partner_coupon_usr,model_partner_coupon_pos,point_of_sale.group_pos_user,1,0,0,0
+pos_delivery,pos.delivery,model_pos_delivery,point_of_sale.group_pos_user,1,1,1,1
+pos_delivery_line,pos.delivery.line,model_pos_delivery_line,point_of_sale.group_pos_user,1,1,1,1
+pos_order_note_manager,pos_pos_order_note_manager,model_pos_order_note,point_of_sale.group_pos_manager,1,1,1,1
+pos_order_note_employee,pos_pos_order_note_employee,model_pos_order_note,point_of_sale.group_pos_user,1,1,1,1

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets" inherit_id="point_of_sale.assets" name="point_of_sale assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/zero_pos12/static/src/css/stock_qty.css"/>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_pos.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_init.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_db.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_order_line.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_product_list_widget.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_product_screen_widget.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_popup.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/service_charge.js"/>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/barcode.js"></script>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/product_category_filter.js"></script>
+                <link rel="stylesheet" href="/zero_pos12/static/src/css/delivery_order.css" />
+                <script type="text/javascript" src="/zero_pos12/static/src/js/delivery_order.js"/>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/pos_delivery.js"/>
+                <script type="text/javascript" src="/zero_pos12/static/src/js/coupons.js"></script>
+                <link rel="stylesheet" href="/zero_pos12/static/src/css/vouchers.css" id="pos-stylesheet"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

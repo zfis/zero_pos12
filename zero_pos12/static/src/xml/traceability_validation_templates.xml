@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="pos_extend_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/zero_pos12/static/src/js/stock_qty_pos.js"/>
+        </xpath>
+    </template>
+</odoo>
+

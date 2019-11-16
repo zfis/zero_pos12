@@ -1,0 +1,51 @@
+.alert_msg{
+    color:red;
+}
+
+.popup_delivery_ref{
+    height: 150px !important;
+}
+
+
+/* The Delivery List Screen */
+
+.delivery_list-screen .delivery-list{
+    font-size: 16px;
+    width: 100%;
+    line-height: 40px;
+}
+.delivery_list-screen .delivery-list th,
+.delivery_list-screen .delivery-list td {
+    padding: 0px 8px;
+}
+.delivery_list-screen .delivery-list tr{
+    transition: all 150ms linear;
+    background: rgb(230,230,230);
+}
+.delivery_list-screen .delivery-list thead > tr,
+.delivery_list-screen .delivery-list tr:nth-child(even) {
+    background: rgb(247,247,247);
+}
+.delivery_list-screen .delivery-list tr.highlight{
+    transition: all 150ms linear;
+    background: rgb(110,200,155) !important;
+    color: white;
+}
+.delivery_list-screen .delivery-list td tr.lowlight{
+    transition: all 150ms linear;
+    background: rgb(216, 238, 227);
+}
+.delivery_list-screen .delivery-list tr.lowlight:nth-child(even){
+    transition: all 150ms linear;
+    background: rgb(227, 246, 237);
+}
+
+.delivery_list-screen .searchbox{
+    right: auto;
+    margin-left: -90px;
+    margin-top:8px;
+    left: 50%;
+}
+.delivery_list-screen .searchbox input{
+    width: 120px;
+}
