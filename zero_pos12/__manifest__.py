@@ -29,13 +29,16 @@
     - Avilable stock Qty per each point of sale stock location
     - Session Summary Reports
     - Works on odoo community and enterprise 12
-    - All Features Work on Odoo POS offline Mode """,
+    - All Features Work on Odoo POS offline Mode 
+    
+    
+    Note: after installation you must upgrade this module to insert some features""",
     'author': 'Zero Systems',
     'website': "https://www.erpzero.com",
     'company': 'Zero For Information Systems',
     'depends': ['base','point_of_sale','pos_restaurant','barcodes','account'],
     'data': [
-             'views/assets.xml',
+             'data/data.xml',
              'views/gift_voucher.xml','views/coupons.xml',
              'views/multi_note_order_backend.xml', 
              'views/product_category_filter.xml',
@@ -46,7 +49,7 @@
              'report/print_session_report_template.xml',
              'report/print_session_pos_report.xml',
              'report/report_session_summary.xml',
-             'report/session_summary_report.xml','data/data.xml',
+             'report/session_summary_report.xml',
              'security/pos_user_restrict_security.xml',
              'security/ir.model.access.csv'
             ],
