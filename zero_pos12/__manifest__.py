@@ -36,7 +36,7 @@
     'depends': ['base','point_of_sale','pos_restaurant','barcodes','account'],
     'data': [
              'views/assets.xml',
-             'views/gift_voucher.xml',
+             'views/gift_voucher.xml','views/coupons.xml',
              'views/multi_note_order_backend.xml', 
              'views/product_category_filter.xml',
              'views/delivery_order.xml',
