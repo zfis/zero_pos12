@@ -30,7 +30,7 @@
     - Session Summary Reports
     - Works on odoo community and enterprise 12
     - All Features Work on Odoo POS offline Mode """,
-    'author': 'Zero Systems',
+    'author': 'Zero Systems','cybrosys','sitaramsolutions',
     'website': "https://www.erpzero.com",
     'company': 'Zero For Information Systems',
     'depends': ['base','point_of_sale','pos_restaurant','barcodes','account'],
