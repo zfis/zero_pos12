@@ -34,7 +34,7 @@
     
     Note: you must enable (Show Full Accounting Features) for administrator befor installation but if you forget that
      then you can enable (Show Full Accounting Features) after installation and then upgrade our module """,
-    'author': 'Zero Systems,cybrosys,sitaramsolutions',
+    'author': 'Zero Systems,cybrosys,sitaramsolutions,D.Jane,Fauniq',
     'website': "https://www.erpzero.com",
     'company': 'Zero For Information Systems',
     'depends': ['base','point_of_sale','pos_restaurant','barcodes','account'],
